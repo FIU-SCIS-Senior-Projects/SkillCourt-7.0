@@ -1,2 +1,2 @@
-# SkillCourt-7.0
-SkillCourt 7.0
+# MVP
+MVP product
