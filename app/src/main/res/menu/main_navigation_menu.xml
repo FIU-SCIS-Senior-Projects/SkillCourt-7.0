@@ -22,7 +22,7 @@
 
         <item
             android:id="@+id/multiplayer"
-            android:icon="@drawable/ic_insert_chart_black_24dp"
+            android:icon="@drawable/ic_group_black_24dp"
             android:title="Multiplayer"
             android:checked="false" />
 
@@ -34,7 +34,7 @@
 
         <item
             android:id="@+id/organizer_features"
-            android:icon="@drawable/ic_hourglass_empty_black_24dp"
+            android:icon="@drawable/ic_insert_invitation_black_24dp"
             android:title="Event Manager"
             android:checked="false" />
 
