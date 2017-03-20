@@ -68,6 +68,24 @@
             android:name=".ui.login.LoginFacebook"
             android:label="@string/title_activity_login_facebook"
             android:theme="@style/AppTheme"></activity>
+
+
+
+
     </application>
+    <!-- Messaging Service-->
+    <service
+        android:name=".MyFirebaseMessagingService">
+        <intent-filter>
+            <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+        </intent-filter>
+    </service>
+    <!--ID Service for Messaging-->
+    <service
+        android:name=".MyFirebaseInstanceIDService">
+        <intent-filter>
+            <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+        </intent-filter>
+    </service>
 
 </manifest>
