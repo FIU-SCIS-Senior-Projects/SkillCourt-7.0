@@ -49,12 +49,13 @@ dependencies {
     compile 'com.firebase:firebase-client-android:2.5.2'
     compile "com.google.firebase:firebase-auth:$firebaseVersion"
     compile 'com.google.firebase:firebase-database:9.4.0'
+    compile 'com.google.firebase:firebase-messaging:9.4.0'
+    compile 'com.google.firebase:firebase-invites:9.4.0'
     compile project(':materialstepperlibrary-release')
     compile 'com.facebook.android:facebook-android-sdk:[4,5)'
 
     compile 'com.github.PhilJay:MPAndroidChart:v3.0.0'
     compile 'com.squareup.picasso:picasso:2.5.2'
-    compile 'com.google.firebase:firebase-messaging:9.4.0'
 
 }
 
