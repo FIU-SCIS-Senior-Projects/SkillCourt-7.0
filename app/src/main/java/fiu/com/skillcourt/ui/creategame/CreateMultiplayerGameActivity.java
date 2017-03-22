@@ -12,7 +12,7 @@ public class CreateMultiplayerGameActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_game);
         if (savedInstanceState == null) {
-            replaceFragment(CreateGameFragment.newInstance(), false);
+            replaceFragment(CreateMultiplayerGameFragment.newInstance(), false);
         }
         setNavigationToolbar();
     }

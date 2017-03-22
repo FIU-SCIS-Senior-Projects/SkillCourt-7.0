@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="Challenge Player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#88b732"
+        android:textColor="@color/background"
+        android:textSize="20dp"
+        android:layout_marginTop="130dp"
+        android:id="@+id/ChallengePlayerButton" />
+
+    <Button
+        android:text="Enter Lobby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#88b732"
+        android:textColor="@color/background"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/EnterLobbyButton" />
+
+    <Button
+        android:text="Exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#88b732"
+        android:textColor="@color/background"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/ExitButton" />
+</LinearLayout>
