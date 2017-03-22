@@ -76,4 +76,12 @@
         </activity>
     </application>
 
+    <!-- SERVICE NOTIFICATION-->
+    <service
+        android:name=".NotificationService">
+        <intent-filter>
+            <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+        </intent-filter>
+    </service>
+
 </manifest>
