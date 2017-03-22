@@ -18,6 +18,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.facebook.FacebookSdk;
 import com.facebook.login.LoginManager;
 import com.github.mikephil.charting.charts.LineChart;
 import com.github.mikephil.charting.components.XAxis;
@@ -44,6 +45,8 @@ import fiu.com.skillcourt.adapters.GamesPlayedRecyclerViewAdapter;
 import fiu.com.skillcourt.entities.Game;
 import fiu.com.skillcourt.ui.LauncherActivity;
 import fiu.com.skillcourt.ui.base.BaseFragment;
+
+import static com.facebook.FacebookSdk.getApplicationContext;
 
 public class MainDashboardFragment extends BaseFragment  {
 
