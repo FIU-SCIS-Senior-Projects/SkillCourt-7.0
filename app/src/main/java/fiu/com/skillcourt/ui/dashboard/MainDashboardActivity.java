@@ -1,7 +1,6 @@
 package fiu.com.skillcourt.ui.dashboard;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
@@ -13,9 +12,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.facebook.login.LoginManager;
-import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
-import com.google.android.gms.appindexing.Thing;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -28,13 +25,10 @@ import com.google.firebase.database.ValueEventListener;
 import fiu.com.skillcourt.R;
 import fiu.com.skillcourt.ui.LauncherActivity;
 import fiu.com.skillcourt.ui.base.BaseActivity;
-import fiu.com.skillcourt.ui.coach_dashboard.CoachingDashboardActivity;
 import fiu.com.skillcourt.ui.coach_dashboard.CoachingFragment;
-import fiu.com.skillcourt.ui.event_dashboard.EventDashboardActivity;
-import fiu.com.skillcourt.ui.event_dashboard.EventFragment;
 import fiu.com.skillcourt.ui.creategame.CreateGameActivity;
 import fiu.com.skillcourt.ui.dynamicsteps.DynamicStepsFragment;
-import fiu.com.skillcourt.ui.statistics.StatisticsFragment;
+import fiu.com.skillcourt.ui.creategame.CreateMultiplayerEntrance;
 import fiu.com.skillcourt.ui.statistics.StatsActivity;
 
 public class MainDashboardActivity extends BaseActivity {
@@ -98,7 +92,8 @@ public class MainDashboardActivity extends BaseActivity {
                         return true;
                     case R.id.multiplayer:
                         title = "Multiplayer";
-                        Intent intent = new Intent(MainDashboardActivity.this, CreateGameActivity.class);
+                        //Intent intent = new Intent(MainDashboardActivity.this, CreateMultiplayerGameActivity.class);
+                        Intent intent = new Intent(MainDashboardActivity.this, CreateMultiplayerEntrance.class);
                         startActivity(intent);
                         return true;
                     case R.id.coaching_features:

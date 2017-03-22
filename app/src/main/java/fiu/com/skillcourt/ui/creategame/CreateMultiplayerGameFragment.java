@@ -43,7 +43,7 @@ import fiu.com.skillcourt.ui.base.Utils;
 import fiu.com.skillcourt.ui.custom.GameModePickerFragment;
 import fiu.com.skillcourt.ui.custom.NumberPickerFragment;
 import fiu.com.skillcourt.ui.custom.TimePickerFragment;
-import fiu.com.skillcourt.ui.startgame.StartGameActivity;
+import fiu.com.skillcourt.ui.startgame.StartMultiplayerGameActivity;
 
 
 public class CreateMultiplayerGameFragment extends ArduinosStartCommunicationFragment implements TimePickerDialog.OnTimeSetListener, DialogInterface.OnClickListener, NumberPickerFragment.NumericDialogListener,AdapterView.OnItemSelectedListener {
@@ -144,9 +144,8 @@ public class CreateMultiplayerGameFragment extends ArduinosStartCommunicationFra
                     if (selectedGameMode == SkillCourtGame.GameMode.BEAT_TIMER) {
                         SkillCourtManager.getInstance().getGame().setTimeObjective(frequencyTime);
                     }
-                    Intent intent = new Intent(getActivity(), StartGameActivity.class);
+                    Intent intent = new Intent(getActivity(), StartMultiplayerGameActivity.class);
                     intent.putExtra(Constants.TAG_SEQUENCE, defaultSequence);
-                    intent.putExtra("multi", true);
                     startActivity(intent);
                     fragmentListener.closeActivity();
                 } else {

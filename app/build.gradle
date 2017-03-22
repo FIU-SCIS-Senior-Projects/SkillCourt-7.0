@@ -44,18 +44,15 @@ dependencies {
     compile 'com.android.support:gridlayout-v7:25.0.0'
     compile 'com.google.android.gms:play-services:9.4.0'
 
-
     testCompile 'junit:junit:4.12'
     compile 'com.firebase:firebase-client-android:2.5.2'
     compile "com.google.firebase:firebase-auth:$firebaseVersion"
     compile 'com.google.firebase:firebase-database:9.4.0'
     compile project(':materialstepperlibrary-release')
-    compile 'com.facebook.android:facebook-android-sdk:[4,5)'
+    compile 'com.firebaseui:firebase-ui:0.4.3'
 
     compile 'com.github.PhilJay:MPAndroidChart:v3.0.0'
     compile 'com.squareup.picasso:picasso:2.5.2'
-    compile 'com.google.firebase:firebase-messaging:9.4.0'
-
 }
 
 
