@@ -45,7 +45,7 @@ public class CreateLobbyRoomActivity extends BaseActivity {
                 if(roomName.getText() != null && !roomName.getText().toString().isEmpty()){
                     createRoom();
 
-                    Intent intent = new Intent(CreateLobbyRoomActivity.this, CreateMultiplayerLobbyActivity.class);
+                    Intent intent = new Intent(CreateLobbyRoomActivity.this, CreateMultiplayerLobbyWaitingActivity.class);
                     startActivity(intent);
                     finish();
                     Toast toast = Toast.makeText(getApplicationContext(), "Room created", Toast.LENGTH_SHORT);
@@ -88,6 +88,8 @@ public class CreateLobbyRoomActivity extends BaseActivity {
 
         //Room created, add it to the user's room state
         DatabaseReference mRoomState = mRootRef.child("users").child(user.getUid()).child("room");
-        mRoomState.setValue(location.toString());
+        mRoomState.setValue(location.getKey());
+
+        //go to room
     }
 }
