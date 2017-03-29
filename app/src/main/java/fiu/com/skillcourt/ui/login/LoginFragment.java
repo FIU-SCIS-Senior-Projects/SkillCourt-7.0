@@ -23,6 +23,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 
 import fiu.com.skillcourt.R;
+import fiu.com.skillcourt.fcm.MyFirebaseInstanceIDService;
 import fiu.com.skillcourt.ui.base.BaseAuthFragment;
 
 
@@ -121,6 +122,9 @@ public class LoginFragment extends BaseAuthFragment {
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             showProgress(false);
                             Log.d(TAG, "signInWithEmail:onComplete:" + task.isSuccessful());
+
+                            MyFirebaseInstanceIDService newID = new MyFirebaseInstanceIDService();
+                            newID.onTokenRefresh();
 
                             // If sign in fails, display a message to the user. If sign in succeeds
                             // the auth state listener will be notified and logic to handle the

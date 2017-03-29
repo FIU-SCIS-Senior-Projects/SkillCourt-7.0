@@ -323,11 +323,11 @@ public class MainDashboardFragment extends BaseFragment  {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 String userRole = dataSnapshot.getValue(String.class);
 
-                if (userRole.equals("organizer")) {
-                    menu.findItem(R.id.addOrganizer).setVisible(false);
-                }else {
-                    menu.findItem(R.id.addOrganizer).setVisible(true);
-                }
+//                if (userRole.equals("organizer")) {
+//                    menu.findItem(R.id.addOrganizer).setVisible(false);
+//                }else {
+//                    menu.findItem(R.id.addOrganizer).setVisible(true);
+//                }
             }
 
             @Override

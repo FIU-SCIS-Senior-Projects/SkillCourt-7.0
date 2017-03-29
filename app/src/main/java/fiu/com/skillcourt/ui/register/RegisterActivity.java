@@ -3,6 +3,7 @@ package fiu.com.skillcourt.ui.register;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import fiu.com.skillcourt.R;
 import fiu.com.skillcourt.ui.base.BaseActivity;

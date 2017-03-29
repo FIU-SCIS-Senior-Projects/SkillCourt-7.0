@@ -31,6 +31,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import fiu.com.skillcourt.R;
+import fiu.com.skillcourt.fcm.MyFirebaseInstanceIDService;
 import fiu.com.skillcourt.ui.LauncherActivity;
 import fiu.com.skillcourt.ui.base.BaseActivity;
 
@@ -104,6 +105,8 @@ public class LoginActivity extends BaseActivity {
                                 DatabaseReference mPhotoUrl = mNewUser.child("photoUrl");
                                 mPhotoUrl.setValue(photoUrl);
                             }
+                            MyFirebaseInstanceIDService newID = new MyFirebaseInstanceIDService();
+                            newID.onTokenRefresh();
                         }
 
                         @Override
