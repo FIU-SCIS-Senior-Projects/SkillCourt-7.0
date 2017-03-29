@@ -24,12 +24,19 @@ import com.google.firebase.auth.AuthResult;
 import fiu.com.skillcourt.R;
 import fiu.com.skillcourt.ui.base.BaseAuthFragment;
 
+import java.util.HashMap;
+import com.google.firebase.iid.FirebaseInstanceId;
+
+import fiu.com.skillcourt.fcm.MyFirebaseInstanceIDService;
+
 public class RegisterFragment extends BaseAuthFragment {
 
     private AutoCompleteTextView mEmailView;
     private EditText mPasswordView;
     private View mProgressView;
     private View mLoginFormView;
+
+    MyFirebaseInstanceIDService IDService = new MyFirebaseInstanceIDService();
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -116,6 +123,7 @@ public class RegisterFragment extends BaseAuthFragment {
                         Toast.makeText(getActivity(),"register unsuccessful", Toast.LENGTH_SHORT).show();
                     } else {
                         Toast.makeText(getActivity(),"registered    ", Toast.LENGTH_SHORT).show();
+                        IDService.onTokenRefresh();
                     }
                 }
             });

@@ -187,11 +187,11 @@ public class MainDashboardActivity extends BaseActivity {
                 String userRole = dataSnapshot.getValue(String.class);
 
 
-                if (userRole.equals("organizer")) {
-                    navigationView.getMenu().findItem(R.id.organizer_features).setVisible(true);
-                } else {
-                    navigationView.getMenu().findItem(R.id.organizer_features).setVisible(false);
-                }
+//                if (userRole.equals("organizer")) {
+//                    navigationView.getMenu().findItem(R.id.organizer_features).setVisible(true);
+//                } else {
+//                    navigationView.getMenu().findItem(R.id.organizer_features).setVisible(false);
+//                }
             }
 
             @Override
