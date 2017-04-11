@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="firebase-ui-0.4.3">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui/0.4.3/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui/0.4.3/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.firebaseui/firebase-ui/0.4.3/6a71f12c7594966ca83daf1054baf74aae5e2949/firebase-ui-0.4.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

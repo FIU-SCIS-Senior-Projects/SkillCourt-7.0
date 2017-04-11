@@ -3,786 +3,840 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="670df81539ab71918d49b186598b7eff08ef6563">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-9.4.0_a7e631d2307fe7db8024512e4a89042f89956626\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.2.2\3c8f6018eaa72d43b261181e801e6f8676c16ef6\jackson-databind-2.2.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-databind-2.2.2_38e8e55064539987b909ab13281c78428c35e80b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.android.support\customtabs\23.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="0e5a66a941515d873a34065fe44fbba6ef422a1b">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-customtabs-23.2.1_f7a2230e89e66505aad27d2366b731be8c341afb\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="461e4257888c25ec05abcd91e758fe7f4949230a">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-9.4.0_b80607e606123d8fa22a749ddc8a497b16a3b9d5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_2ba1891fbf964995dee18b1dca74884b5d6c6875\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="0b060160e7daee343f5315b3da91b0ff2d7eed89">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-9.4.0_a8cd6ddbf824ab02036b16956bb38e9d5d2cd3ce\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_42473c58851a9a1e85394452e05c894e53e62c8e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_ef884f33cc7308a16bc03643ea2c029b4c9b36e9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.firebaseui\firebase-ui-auth\0.4.3\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="647502c39ed7ca9bbf22c22d0015c77e0d06e317">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.firebaseui-firebase-ui-auth-0.4.3_6f414131dd759ba5795518d3e3285ff2c423018b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="e35002351f2d415093a9b564652d4b56be6a0593">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-9.4.0_6a6b6d18064b8168aa8425cff1ce999a35c56035\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-9.4.0_ca99cf3436f647b26ba40e407bed9a4b8416bb60\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.4.0_6abc07c1aefc4ef5ed3f9a9f0cc759af8ed27edc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_e19435b9cd3725d18356cc84dae6e7fb498be2b9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_e71fd9df6944cd9e4a39803d43da6fb221d83597\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="f939e179ff43cc7049d16cdd9c80589a8da075b8">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d0cc8d7c305285c79e0605db99ca6f5501ff48c7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="ba47b210d36301e237ccfea860eaada04590f12a">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-9.4.0_1891048d4f84f2b7b39e14dc78488e9ac0dc3db9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="0ad33eb600f3d80bdff5ce355c90d5533ade652a">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-9.4.0_43215d01506307e807d4e0a07dfffbe1a677c058\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_d19855e301394df117012dcba2154f4132dc4c51\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="03829a2618892d438a1f59c6286699ca1f476e93">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-9.4.0_f9740fe0cd2338736bde2f9f993258cf4edc5246\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.0.0_c155416a49f5eef31c55e5163833dd66bebbffb8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="8ce5e7a4a146dddd1d9e66b09c714a6c149916d8">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-9.4.0_0e32ca234fbc6b41d063b6761c34a2a3607976fa\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="4348dd26d83b56c2058b768222c3271bce911724">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-9.4.0_022dbe4fa30f3271602d865aaddd1e6b43bb78c6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_344f322c7750f915094c19acfec04d6ad41cc53a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="a432629397351d3ec7f27a23d258b229b81af08f">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-9.4.0_2d6afdf6cb44bd2c00570d6589f23a31ef869dfd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.firebaseui\firebase-ui\0.4.3\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="2485a4d9357967fb69ff9ac323ca0e778c2c22fb">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.firebaseui-firebase-ui-0.4.3_318dd1ec17d25b3c0d2ffccb651a5b8857d3cb89\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="954697ee6ea7bdd596babf4f70e8b7a17ca7649e">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-9.4.0_188aaea62e2c1e334ea266e22df99e7ba98eac1c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.11.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="86da97c30f50a67ddabe2cf7040713ad17153fce">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.11.0_48f99b101c026115d753f09ba05a82a7b96552f2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="c8f5d56f8f8a287c95e02c542baade138a378048">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-9.4.0_6bc1c6af72d4ed64270ebacb00c069167b75b4e1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="cd5e7d19111ba4f6cf964b4e8463229729bda323">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_bc37975fcc1e3092079c5dd4171c7a030b593731\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.0_fcbfca08fd3cccb8fd2c784a2b9a5235542754c5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.2\d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b\jackson-core-2.2.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.2.2_de3169acd801d6e48cb4cc0999fc9fb774b67167\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-contextmanager\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="72eacac37fc64e95d53abd2a041bf81a952d8615">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-contextmanager-9.4.0_b1f84a13c1b1c7c662c3166fb500264bc7095c14\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="b1acf13f1b7d8232af78a30833f9a966d1394c84">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-9.4.0_71829b3ad057f499fc64ebfa85e9777e39b7f163\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="c10df7344e31161852c20bb8143fc37319aa10ec">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-9.4.0_d9c5c1c1277655f068c83c2e905011bffce06ad2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.4.0_630e4da18c3ef4921546301f441d75cb13a651ab\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="5e04c0b3683ca45b343284d93e5594b5f9044551">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-9.4.0_b6459059f936e24da5dc4892bab2b060ef92bbaf\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="3b7173b3df4c7029699919414400041f64519e34">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.4.0_faa7da3ef8a39b4ec76ff1b1ba4fd969f858510e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="dab6944860c986980dcc6002a5ca2f127b587317">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-9.4.0_b4b6934911a3182d4022c401ad94e26778cd1178\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_2bfe9cc81d1c8e89e86acd101762636c0ba87c56\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-9.4.0_733996da52383d548476a2f41b2793df161a3fb5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="8a372c4191f80489770a231f7be4820b204b886a">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.0.0_6c60b5c0fe920fb1a064cd2bbb3708ca1b3f8434\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="7bc6ea2bcfd6de4b7085e0f3a01616c5c8e0e2ad">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-9.4.0_1b4e02efe00a5c680037d2eb8f4712871cc4e627\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_ff8bf07bcb2cf36607f47f532ef0618d2b1932b2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-android\2.5.2\f19f10d6276aa0b380e2d05d2ab3272d693a5433\firebase-client-android-2.5.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="f19f10d6276aa0b380e2d05d2ab3272d693a5433">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\firebase-client-android-2.5.2_41ff3b9dda4f54fe9dbeeaab01226178a9dfb345\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_f84ae57ef1f5217ce4869efd4b1363f135642094\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="d49118ba67a101c4895f0581f17142cba85b330b">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-9.4.0_6b9598023bf6c6537ffd612d42977308b9c76d67\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-module-9.4.0_1a6caa415afbbb792a49f977cfd572823b5b7e3d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-9.4.0_ba3ba6de44893ced634d05c19d751a37da53b0b8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="59a16a4a42d25b2c243dd1e8aea87d06895b4a06">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-9.4.0_95093bc6cd059add6cf553da9a69553b3b907f07\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-9.4.0_a570915d401e5052211e42e5f6eda530bb793aac\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="736d8893fb702f128a153c9d87c9c29724d37872">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-9.4.0_829c644a269755b3658c33cfd406f655788b6ad5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-common-9.4.0_3e903c7039408b0a8104e9787029e6b34433c3c5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_6cbcb32e4db75d84e157c064d5c8f9e48845cb98\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-9.4.0_3d04575c2507f50e65568a3f4221fbb586766fa2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="8197651ce1af4d89b47f4545cc720bc4f8611e7d">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-9.4.0_0d2019da3374fccf2445e07fb88f413cf41235fa\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_ce08348a11372b19afebc5489add8d1a25e7552d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-9.4.0_4a20edf1ba0985d84d292f072d10bf397356cfad\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="e6e2251f3d3abf4eecd6bf6919d41fc7af497852">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-9.4.0_71fbc95820fe629236b239358028f62f5baff1e4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\.gradle\caches\modules-2\files-2.1\com.firebase\tubesock\0.0.12\6ec0bbd3e161a73ed672284b587fd32309a86d7a\tubesock-0.0.12.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="6ec0bbd3e161a73ed672284b587fd32309a86d7a">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\tubesock-0.0.12_c3dd692bf5446bf4a54c1e0af77bdb91c041546c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-9.4.0_4ed1c1aeef70b9ed3ba8cc372a74be61f8b4928f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-23.0.0_bc0a30ddab7f8a05ac310515ba453b1acad96027\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="e454c414a069241ee08444d187f2dd3a702596b5">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-9.4.0_6438ab43aaea902e9feb1b2860776fe85ae3394f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-jvm\2.5.2\91731b8f5868a3e8a8a773f29b8d06b5c358f5bb\firebase-client-jvm-2.5.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="91731b8f5868a3e8a8a773f29b8d06b5c358f5bb">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\firebase-client-jvm-2.5.2_308a3f4c008395942bcfe47f22fc0eeb1ee10d5a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\9.4.0\jars\classes.jar"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="7ea53c4458b80e8ea71f7fd6831fa184c501377b">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-9.4.0_e56cebc921b1083650278eb5a3fbc4a05e4f279a\classes.dex" />
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-9.4.0_3c404fc841b33304e14735d2e23e1e556941def1/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\9.4.0\jars\classes.jar"
+        jar="/home/alvaro/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.1/f5aa318bda4c6c8d688c9d00b90681dcd82ce636/httpcore-4.4.1.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="98e97da89d4df8e2f6eba63498d3d46a587372f2">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-9.4.0_e1ae50f68f6fdafbe210c9a44a0d06fb11208635\classes.dex" />
+        sha1="f5aa318bda4c6c8d688c9d00b90681dcd82ce636">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/httpcore-4.4.1_63aad7b2501acb6a3cba7c6ca8c608f4cd5f27c6/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.firebaseui\firebase-ui-database\0.4.3\jars\classes.jar"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="734f779fc6347fe6932ae0ae510f958aadf55e45">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.firebaseui-firebase-ui-database-0.4.3_93aaf93da2ff6b048933b55a9731ff7e978abf9a\classes.dex" />
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-9.4.0_6281b4a960e48feba39b3677c6e6380b1fa37b06/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Chandan\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.2.2\285cb9c666f0f0f3dd8a1be04e1f457eb7b15113\jackson-annotations-2.2.2.jar"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/9.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-annotations-2.2.2_b0a9e068ef645f751ca6632b6b7f0980b1673295\classes.dex" />
+        sha1="d49118ba67a101c4895f0581f17142cba85b330b">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-9.4.0_858d0df92ed0862448a42e5ffaf77e96603d14ac/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="e5e8e535d15834e824817bdf5370556f62b4b2a5">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-9.4.0_ea59cb488a3b44d28f1af86715b2eea37b5106b8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-9.4.0_f304ca55a6a8c68cc342e83abf762b8c78c46b79\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\jars\classes.jar"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-9.4.0_0797af30dfa2d76da0f3fb5793faa139ffb05fbe\classes.dex" />
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-9.4.0_0385a039492ab4c5040f6305c07fa84d53ee1c8a/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_495696d6dc0f6fe3aa6ebf23b1e176b73a325bad\classes.dex" />
+        sha1="a432629397351d3ec7f27a23d258b229b81af08f">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-9.4.0_a930b77a43a4d79850670d3f830e49604a89e12c/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="ece40b09e9d4d488bc270cf6af5a9af73bc1cfa3">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-9.4.0_33a7981c4fcb7877d64c8ae2ae51f3412bf4d2d7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_1c8aa0d13e0cafeaee5fc2f227d2660306a08779\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_c8581b83f504d10e894dccbb8df8d9a8f9f9b8f9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.4.0_a49065815cb6c444540894ef943abaefa93d1528\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.4.0_c470cbe20ad1d6c4ac5f7a2b612e997916973979\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_ed2c6e7f130d394bb7ccc7b4f79cd2f03047924e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_202881ced2ae9c463e5cbb0ae6e48c86a13532bc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_72be31f77415c98f15ef40c999f553bee6bcedfa\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_dbe7d801f7267558bea766021530fb6d14d7a826\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_f55aaf55102d3c4f52f6eeae064a7c8d0694e176\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/libs/internal_impl-23.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_134f754d87676770efb29cf8d24d82f17dfcad5b\classes.dex" />
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.0_c03d1d34f0ddbc796a0a90033c7bae39146973ac/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\9.4.0\jars\classes.jar"
+        jar="/home/alvaro/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.2.2/3c8f6018eaa72d43b261181e801e6f8676c16ef6/jackson-databind-2.2.2.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="dd51b31890731591729f046d7a09c4fe4e483ed1">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-9.4.0_5da61906517c9bc7ae5cd4212dfbc700341d8838\classes.dex" />
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-databind-2.2.2_be02ede7c4aa697c9a64c39098fd4834f091d2bb/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.4.0\jars\classes.jar"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-9.4.0_cb25b079d870625e44a8ecde9e3a6e42d3c82020\classes.dex" />
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.0_aea39b508e0d905d8dcd2b60142144b6171a8e7a/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.android.support\design\25.0.0\jars\classes.jar"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.0_984e29c5c1925147239c94e5b9cee51cfc090bde\classes.dex" />
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.0_e17f8d96e58f8e6d1118ec2061f0c61234fcc9ca/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\25.0.0\jars\classes.jar"
+        jar="/home/alvaro/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="5025063c4c03baa1b6759432195024dd8e5a3f92">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-gridlayout-v7-25.0.0_2f3dc1a85b09c16e8e55d8f95b287a2471b1a17e\classes.dex" />
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_12abe52c5210b37d53f00a7c0b232b757e1f777a/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Chandan\.gradle\caches\modules-2\files-2.1\com.github.PhilJay\MPAndroidChart\v3.0.0\ff93baa2e2e6ca507fc6ec731f61751dd0d865e7\MPAndroidChart-v3.0.0.jar"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8197651ce1af4d89b47f4545cc720bc4f8611e7d">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-9.4.0_6281119adcdc622162d4bee9817a69a1fe4638d0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.2/d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b/jackson-core-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.2.2_8ff0248219554b132afcb586089c0076646279a4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.4.0_6be33ce29c9b8c7037b81d56c84ef1d67ca4fea4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.4.0_320c5ad4678a3d6bcfeb0acd71a99b3bbd9c35e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.0.0_808ae8126f575dd0395b8a982c0cea4100724101/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.0_d771445aba1b777446815db7360b036a9e151271/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.0.0_20e3003f1ab996d6fe722e80c69c46c1938127b8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.4.0_50b7963d7f817b94f2dd0e8d7fa7da9471e15786/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.0_b0f224e2668beeed26e4bca7e80a1d90ac1e481f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_a519365288b709e43911ce57fcbc8d716f797587/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e6e2251f3d3abf4eecd6bf6919d41fc7af497852">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-9.4.0_a1c536119a625078bf6eea27a55ec3248339fa9d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_db70e3d018ef8621b5add062df47dd240481fbdc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.android.support/customtabs/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0e5a66a941515d873a34065fe44fbba6ef422a1b">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-customtabs-23.2.1_b61a1302387844f5fbed898073add66864d090f2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c10df7344e31161852c20bb8143fc37319aa10ec">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-9.4.0_7afc2d44d0717502ced53c93bc28a5fc42391e82/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/.gradle/caches/modules-2/files-2.1/com.firebase/tubesock/0.0.12/6ec0bbd3e161a73ed672284b587fd32309a86d7a/tubesock-0.0.12.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6ec0bbd3e161a73ed672284b587fd32309a86d7a">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/tubesock-0.0.12_fbebac02e8754b96d3453e1304c27a5e1df5bb0d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.4.0_d77b15aab49716714d19e83ce700db3dbe8044a1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-jvm/2.5.2/91731b8f5868a3e8a8a773f29b8d06b5c358f5bb/firebase-client-jvm-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="91731b8f5868a3e8a8a773f29b8d06b5c358f5bb">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/firebase-client-jvm-2.5.2_626ef2a125cac4396f40b58fd5418df393f3e0d7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui-auth/0.4.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="647502c39ed7ca9bbf22c22d0015c77e0d06e317">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.firebaseui-firebase-ui-auth-0.4.3_7f5b793cd5984e31f949fdf248ef4b99f7582e2f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="59a16a4a42d25b2c243dd1e8aea87d06895b4a06">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-9.4.0_b53a2f0559681d67489e9ccd0d0a37a9758ec891/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_2fcfc35b43aea8892be6dd97c3d1a835d2220534/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4348dd26d83b56c2058b768222c3271bce911724">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-9.4.0_69ab820152aaf78749537b411cd5d5b150b0bdf6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.0_0747b54d9e20feee6879138dc0eb0aba504d52fa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.6.0_6714f16dcc8b6fb8863d0fd710ff9153807f4058/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-applinks-1.4.0_b202f1a042917a16a5ca92a2e249c05476a6a5b2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/.gradle/caches/modules-2/files-2.1/com.github.PhilJay/MPAndroidChart/v3.0.0/ff93baa2e2e6ca507fc6ec731f61751dd0d865e7/MPAndroidChart-v3.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="ff93baa2e2e6ca507fc6ec731f61751dd0d865e7">
-        <dex dex="C:\Users\Chandan\Desktop\SkillCourt-7.0-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\MPAndroidChart-v3.0.0_084c452e0a31b57ea6c6ae03847770af12a258c1\classes.dex" />
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/MPAndroidChart-v3.0.0_ed67c25ab25e66dfe19bf34a2b0e5046338efb50/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-23.0.0_6c6d324237309b65b5f3c020220e331aadcf891e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="799417f80e5e2f4c9adb392bf9d88705127c6fc7">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a95d0c64c4c23a39e070d1be6169c7c9ba5a9235/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8ce5e7a4a146dddd1d9e66b09c714a6c149916d8">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-9.4.0_f028499ccbcf92100842886f8f91f6901c513007/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-9.4.0_d95879d53adfb7d89e76a9f474c2b9731a7b8def/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.4.0_463602b9af18e69e7d949df06b6a8998dd558a19/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.4.0_1c4ab6faef315b4dfa35c5fd0fa064363d03244d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.4.0_d9b26f24532fedd1b1a17a5a156e786b92dd9c51/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e35002351f2d415093a9b564652d4b56be6a0593">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-9.4.0_f8adb9cf2c4e4f4e007ea5b1fa552345ee57ba29/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="461e4257888c25ec05abcd91e758fe7f4949230a">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-9.4.0_d8f67dca6051f7668c42f998c76f00e5b2f595ee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-9.4.0_525bce46bb4a048cb021f6c8f1bdae9b2cc0db23/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.0.2/f8d87f15b94b8d74e7ccf61d7eedb558811cdb30/converter-gson-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.0.2_fcde6f873a6cd304e794405ed53e4d4b6e98778b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1ad2a89e601e0993aaf79b5cfef6222a7f04bd06">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a7ae2411210f64b1eb1adeb7b41abcad31b93a78/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.4.0_d5e6e72e71980cb427edcc24e29a2a41d2664437/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ece40b09e9d4d488bc270cf6af5a9af73bc1cfa3">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-9.4.0_4a91e79f618ab05efd2e0752b7f5dbe045bbab5d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e5e8e535d15834e824817bdf5370556f62b4b2a5">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-9.4.0_a5a43bae14818adb6ba66c53480a39c8298463c2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5025063c4c03baa1b6759432195024dd8e5a3f92">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-gridlayout-v7-25.0.0_2d22bbf30a6b1c834f13934cd89c6af40e83aa44/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-9.4.0_5d38655d758780e38e05643ddb4abf0971217693/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.1/b9d63507329a7178e026fc334f87587ee5070ac5/gson-2.6.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b9d63507329a7178e026fc334f87587ee5070ac5">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.6.1_b63f0b1a4773171c30e7b692ef4911c7c7e75727/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui-database/0.4.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="734f779fc6347fe6932ae0ae510f958aadf55e45">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.firebaseui-firebase-ui-database-0.4.3_42033ca2c1dfb099ac368098c588b3149af4fe7f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5e04c0b3683ca45b343284d93e5594b5f9044551">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-9.4.0_77ba9bdccf07543d7112e09f3c0edc6b4f5f01b8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="736d8893fb702f128a153c9d87c9c29724d37872">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-9.4.0_7830d8b0ba2c0685ec39dfc617cf6f0f67a27181/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.4.0_5d4351cc0c13d55a84b00f22ffa06cf97b79c98a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.0_632602102e869f77284efec6929c279b7f9c4da2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.0.0_ac73ef87c1ff4a6132cd4efb6272b5b25c8feedc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.0_adaa5d8f343cebff579cb601c0b6c7febd51a190/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b1acf13f1b7d8232af78a30833f9a966d1394c84">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-9.4.0_cec3c7c0e37ca7efb9652b2e30a509458f20d445/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_4e5ee777590aff3c2daae9838d3665b212eec1d0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.4.0_ad0bfa35e25e68623702bbd0defda0264d15239b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="dab6944860c986980dcc6002a5ca2f127b587317">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-9.4.0_7a47fef25bdc0f0a5a96aa328dcd8c7618ce1627/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.2.2/285cb9c666f0f0f3dd8a1be04e1f457eb7b15113/jackson-annotations-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-annotations-2.2.2_830bb2f5b7ff858c90ad76ab0514a538e9976256/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="954697ee6ea7bdd596babf4f70e8b7a17ca7649e">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-9.4.0_c2f9219461d8b029a9428cd9c3c521afef1939df/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_50d130df15142bab949f88e4ef24a9146cc3d789/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c8f5d56f8f8a287c95e02c542baade138a378048">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-9.4.0_a00948329e374777f96e36fea8d58b67570ea173/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_21f65b19e809492869d32badb1a553b515153bef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ba47b210d36301e237ccfea860eaada04590f12a">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-9.4.0_f5734885403ef49f2937356edff5cf199438f44d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="670df81539ab71918d49b186598b7eff08ef6563">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-9.4.0_624eed13845602c1c09a4b1ac868df1f70cc1c92/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0ad33eb600f3d80bdff5ce355c90d5533ade652a">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-9.4.0_63bd77dddb323975633cece1a4133afebf88ee43/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0b060160e7daee343f5315b3da91b0ff2d7eed89">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-9.4.0_04414ac7fd912856d21c03aa690b888b79c782c6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.0_1cf336bc0b2103ea6927856af42a8373153371ba/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="03829a2618892d438a1f59c6286699ca1f476e93">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-9.4.0_a7fb898f4a174fef9a76f24fd9f91e1350ae5397/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e454c414a069241ee08444d187f2dd3a702596b5">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-9.4.0_52a2391bdc91be85af27b0726972e5ce5ac7cc4f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.0.2/43eeae0b9fb087bb3194ba59ab63a38a32fbf3e/retrofit-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.0.2_07999ed1d8cfc43c3aab775abc671a3d5945fc9b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="98e97da89d4df8e2f6eba63498d3d46a587372f2">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-9.4.0_316b0c1b7808ec00dfa8106427d82a2071933db5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.2.0_36ee25b4b50ba2f15660cd8d6ab5ee1436627c36/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.0.0_d0b93a27d696eabcd0107efacc353b02ffdb9222/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-9.4.0_8b2c562c6c3ef7eea106be018b30bb03f632bb02/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-android/2.5.2/f19f10d6276aa0b380e2d05d2ab3272d693a5433/firebase-client-android-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f19f10d6276aa0b380e2d05d2ab3272d693a5433">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/firebase-client-android-2.5.2_da8adfbfa218717b285d7ff101c719d0f4647143/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-contextmanager/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="72eacac37fc64e95d53abd2a041bf81a952d8615">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-contextmanager-9.4.0_8c5f0fa2284b53afa90e7946558a6077506ad8ac/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="dd51b31890731591729f046d7a09c4fe4e483ed1">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-9.4.0_4500f431f1cb67fb3f0533adce06fad8b9ec3a75/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-9.4.0_1507d92f158cc489e742a2ddd81d583dc1127577/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.4.0_466c86ec573a9d9f348a44b92daa85623e1984be/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7bc6ea2bcfd6de4b7085e0f3a01616c5c8e0e2ad">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-9.4.0_5f5f45d951b2bbae6ec8aa284fbbd28b3a883400/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.4.0_c3c7eb3196e80dc331549d4ef465fc19831533dc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_42370eb0fa347a16bb7ba352e4051f4f6cc8ec4f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.11.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="86da97c30f50a67ddabe2cf7040713ad17153fce">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.android-facebook-android-sdk-4.11.0_0c992814abb09ffbdf2327f6758b6811f6bdf24f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui/0.4.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2485a4d9357967fb69ff9ac323ca0e778c2c22fb">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.firebaseui-firebase-ui-0.4.3_b7d01df8797b237220568a6632c0c32693f0881a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/home/alvaro/Desktop/SkillCourt-7.0/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.0_61d9d704a15fdd6bee4842003bc30d4c47d826da/classes.dex" />
     </item>
 
 </items>
