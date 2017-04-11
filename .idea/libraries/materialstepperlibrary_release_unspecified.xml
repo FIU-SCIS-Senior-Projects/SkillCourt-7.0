@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="materialstepperlibrary-release-unspecified">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/SkillCourt-7.0/materialstepperlibrary-release/unspecified/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/SkillCourt-7.0/materialstepperlibrary-release/unspecified/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
