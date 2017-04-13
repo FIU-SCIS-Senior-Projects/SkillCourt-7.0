@@ -16,6 +16,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 import fiu.com.skillcourt.R;
 import fiu.com.skillcourt.fcm.MyFirebaseInstanceIDService;
+import fiu.com.skillcourt.fcm.SearchUserNotifActivity;
 import fiu.com.skillcourt.fcm.SendNotifByHTTP;
 import fiu.com.skillcourt.ui.base.BaseActivity;
 import fiu.com.skillcourt.ui.dashboard.MainDashboardActivity;
@@ -46,11 +47,12 @@ public class CreateMultiplayerEntrance extends BaseActivity {
         exit = (Button) findViewById(R.id.ExitButton);
 
         connectToPlayer.setOnClickListener(new View.OnClickListener() {
-            MyFirebaseInstanceIDService myId = new MyFirebaseInstanceIDService();
 
             @Override
             public void onClick(View v) {
-                new SendNotifByHTTP().sending("ecOKP9ut67o:APA91bHNCzw3ha9GN015mnoiy9K7TdG3awWTNNCia8Lonzg5zcEbB6Q5D-z_f7xiXcHztdw5s7Y-Ip0qYex8Q1AYV7oWh5GapNO9Dchvpz7CbekyEKEopU3fWK8ETCexffNa3HV0D12o");
+                Intent intent = new Intent(CreateMultiplayerEntrance.this, SearchUserNotifActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 

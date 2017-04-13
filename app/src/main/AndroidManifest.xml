@@ -50,6 +50,7 @@
         <activity android:name=".ui.creategame.CreateLobbyRoomActivity" />
         <activity android:name=".ui.creategame.CreateMultiplayerLobbyWaitingActivity" />
         <activity android:name=".ui.statistics.StatsActivity" />
+        <activity android:name=".fcm.SearchUserNotifActivity" />
         <activity
             android:name=".ui.dynamicsteps.DynamicStepsActivity"
             android:label="@string/title_activity_dynamic_steps"
