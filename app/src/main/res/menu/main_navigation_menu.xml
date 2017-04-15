@@ -32,11 +32,11 @@
             android:title="Coaching"
             android:checked="false" />
 
-        <!--<item-->
-            <!--android:id="@+id/organizer_features"-->
-            <!--android:icon="@drawable/ic_insert_invitation_black_24dp"-->
-            <!--android:title="Event Manager"-->
-            <!--android:checked="false" />-->
+        <item
+            android:id="@+id/organizer_features"
+            android:icon="@drawable/ic_insert_invitation_black_24dp"
+            android:title="Event Manager"
+            android:checked="false" />
 
     </group>
 

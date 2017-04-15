@@ -229,22 +229,22 @@ public class MainDashboardFragment extends BaseFragment  {
                     }
                 });
                 ad.show();
-//            case R.id.addOrganizer:
-//                Context context2 = getActivity();
-//
-//                AlertDialog adOrg = new AlertDialog.Builder(context2)
-//                        .create();
-//                adOrg.setCancelable(false);
-//                adOrg.setTitle("Do you want to be a organizer?");
-//                adOrg.setMessage("You will have access to manage events.");
-//                adOrg.setButton("OK", new DialogInterface.OnClickListener() {
-//
-//                    public void onClick(DialogInterface dialog2, int which2) {
-//                        mRoleRef.setValue("organizer");
-//                        dialog2.dismiss();
-//                    }
-//                });
-//                adOrg.show();
+            case R.id.addOrganizer:
+                Context context2 = getActivity();
+
+                AlertDialog adOrg = new AlertDialog.Builder(context2)
+                        .create();
+                adOrg.setCancelable(false);
+                adOrg.setTitle("Do you want to be a organizer?");
+                adOrg.setMessage("You will have access to manage events.");
+                adOrg.setButton("OK", new DialogInterface.OnClickListener() {
+
+                    public void onClick(DialogInterface dialog2, int which2) {
+                        mRoleRef.setValue("organizer");
+                        dialog2.dismiss();
+                    }
+                });
+                adOrg.show();
 
             default:
                 return super.onOptionsItemSelected(item);

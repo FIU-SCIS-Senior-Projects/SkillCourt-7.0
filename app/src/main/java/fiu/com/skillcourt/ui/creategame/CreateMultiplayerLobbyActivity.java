@@ -45,6 +45,30 @@ public class CreateMultiplayerLobbyActivity extends BaseActivity {
         createGameButton = (Button) findViewById(R.id.CreateNewMultiplayerRoomButton);
         user = FirebaseAuth.getInstance().getCurrentUser();
         DatabaseReference mRooms = mRootRef.child("rooms");
+        createGameButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                goToRoom();
+            }
+        });
+
+        DatabaseReference mUser = mRootRef.child("users").child(user.getUid());
+        mUser.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                if(!dataSnapshot.hasChild("room")){ //User not currently subscribed to a room. Let's make one!
+                    createGameButton.setVisibility(View.VISIBLE);
+                }
+                else{
+                    createGameButton.setVisibility(View.INVISIBLE);
+                }
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
 
         listAdapter = new FirebaseListAdapter<Room>(this, Room.class, android.R.layout.simple_list_item_2, mRooms) {
             @Override
@@ -69,31 +93,6 @@ public class CreateMultiplayerLobbyActivity extends BaseActivity {
                 dialog.show();
             }
         });
-
-        createGameButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                DatabaseReference mUser = mRootRef.child("users").child(user.getUid());
-                mUser.addListenerForSingleValueEvent(new ValueEventListener() {
-                    @Override
-                    public void onDataChange(DataSnapshot dataSnapshot) {
-                        if(!dataSnapshot.hasChild("room")){ //User not currently subscribed to a room. Let's make one!
-                            Intent intent = new Intent(CreateMultiplayerLobbyActivity.this, CreateLobbyRoomActivity.class);
-                            startActivity(intent);
-                            finish();
-                        }
-                        else{
-                            //TODO: Redirect to room they're in? Can they get here?
-                        }
-                    }
-
-                    @Override
-                    public void onCancelled(DatabaseError databaseError) {
-
-                    }
-                });
-            }
-        });
     }
 
     private AlertDialog createModalDialog(String title, String message, String confirmation, String cancel){
@@ -112,11 +111,15 @@ public class CreateMultiplayerLobbyActivity extends BaseActivity {
                 DatabaseReference mAddedPlayer = mPlayers.child(user.getUid());
                 DatabaseReference mAddedPlayerStatus = mAddedPlayer.child("status");
                 mAddedPlayerStatus.setValue("joined");
+                DatabaseReference mAddedPlayerGreenHits = mAddedPlayer.child("greenhits");
+                mAddedPlayerGreenHits.setValue(0);
+                DatabaseReference mAddedPlayerRedHits = mAddedPlayer.child("redhits");
+                mAddedPlayerRedHits.setValue(0);
 
                 //TODO:Take the user to the room and wait.
-               /* Intent intent = new Intent(CreateMultiplayerLobbyActivity.this, CreateMultiplayerLobbyWaitingActivity.class);
+                Intent intent = new Intent(CreateMultiplayerLobbyActivity.this, CreateMultiplayerLobbyWaitingActivity.class);
                 startActivity(intent);
-                finish();*/
+                finish();
             }
         });
         builder.setNegativeButton(cancel, new DialogInterface.OnClickListener() {
@@ -130,6 +133,12 @@ public class CreateMultiplayerLobbyActivity extends BaseActivity {
 // Create the AlertDialog
         AlertDialog dialog = builder.create();
         return dialog;
+    }
+
+    public void goToRoom(){
+        Intent intent = new Intent(CreateMultiplayerLobbyActivity.this, CreateLobbyRoomActivity.class);
+        startActivity(intent);
+        finish();
     }
 
     @Override

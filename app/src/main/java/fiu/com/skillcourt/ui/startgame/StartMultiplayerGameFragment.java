@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,11 +15,15 @@ import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.facebook.Profile;
 import com.firebase.client.Firebase;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
@@ -29,16 +34,22 @@ import java.util.Map;
 
 import fiu.com.skillcourt.R;
 import fiu.com.skillcourt.entities.Game;
+import fiu.com.skillcourt.entities.User;
 import fiu.com.skillcourt.game.SkillCourtGame;
 import fiu.com.skillcourt.game.SkillCourtManager;
 import fiu.com.skillcourt.interfaces.Constants;
 import fiu.com.skillcourt.ui.base.ArduinosCommunicationFragment;
 import fiu.com.skillcourt.ui.base.ArduinosStartCommunicationFragment;
 import fiu.com.skillcourt.ui.creategame.CreateGameActivity;
+import fiu.com.skillcourt.ui.creategame.CreateMultiplayerGameActivity;
 import fiu.com.skillcourt.ui.login.LoginFacebook;
 
 public class StartMultiplayerGameFragment extends ArduinosCommunicationFragment implements StartGameView, View.OnClickListener{
 
+    private DatabaseReference mRootRef = FirebaseDatabase.getInstance().getReference();
+    private User modelUser;
+    private User otherUser;
+    private String roomID;
     private TextView tvTimer;
     private ProgressBar progressBar;
     private TextView tvHits;
@@ -75,6 +86,23 @@ public class StartMultiplayerGameFragment extends ArduinosCommunicationFragment 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        DatabaseReference mUser = mRootRef.child("users").child(user.getUid());
+        mUser.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                modelUser = dataSnapshot.getValue(User.class);
+                roomID = modelUser.getRoom();
+                helperOnCreate();
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+        }
+
+    public void helperOnCreate(){
         List<String> sequences = new ArrayList<>();
         if (getArguments() != null) {
             if (getArguments().containsKey(Constants.TAG_SEQUENCE))
@@ -98,19 +126,19 @@ public class StartMultiplayerGameFragment extends ArduinosCommunicationFragment 
         super.onViewCreated(view, savedInstanceState);
 
         Button btnNewGame, btnSaveAndPlay, btnPlayAgain, btnSaveAndNewGame;
-        DatabaseReference mRootRef = FirebaseDatabase.getInstance().getReference();
         user = FirebaseAuth.getInstance().getCurrentUser();
-        DatabaseReference mUsers = mRootRef.child("users");
-        DatabaseReference mUser = mUsers.child(user.getUid());
-        DatabaseReference mPhoto = mUser.child("photoURL");
 
         p1Name = (TextView)view.findViewById(R.id.player1name);
+        p2Name = (TextView)view.findViewById(R.id.player2name);
         //TODO: Replace with actual name
-        p1Name.setText(user.getUid());
+        //TODO: Java ME wifi
+        Profile p = Profile.getCurrentProfile();
+        p1Name.setText(p == null ? modelUser.getEmail() : p.getName());
         p1Pic = (ImageView)view.findViewById(R.id.player1pic);
+        p2Pic = (ImageView)view.findViewById(R.id.player2pic);
 
-        if(mPhoto != null){
-            Picasso.with(getActivity().getApplicationContext()).load(mPhoto.toString()).into(p1Pic);
+        if(p != null){
+            Picasso.with(getActivity().getApplicationContext()).load(modelUser.getPhotoUrl()).into(p1Pic);
         }
 
         //TODO: Look up opposing user by their UID and load their picture.
@@ -120,7 +148,9 @@ public class StartMultiplayerGameFragment extends ArduinosCommunicationFragment 
         tvGreenHits = (TextView)view.findViewById(R.id.tv_green_hits_1);
         tvRedHits = (TextView) view.findViewById(R.id.tv_red_hits_1);
         tvOppGreenHits = (TextView)view.findViewById(R.id.tv_green_hits_2);
+        tvOppGreenHits.setText("0");
         tvOppRedHits = (TextView) view.findViewById(R.id.tv_red_hits_2);
+        tvOppRedHits.setText("0");
         //tvHits = (TextView)view.findViewById(R.id.tv_hits);
         //tvScore = (TextView)view.findViewById(R.id.tv_score);
         btnNewGame = (Button) view.findViewById(R.id.btn_new_game);
@@ -135,7 +165,70 @@ public class StartMultiplayerGameFragment extends ArduinosCommunicationFragment 
         btnPlayAgain.setOnClickListener(this);
         btnSaveAndPlay.setOnClickListener(this);
         btnSaveAndNewGame.setOnClickListener(this);
+
+        findOtherUser();
+    }
+
+    private void findOtherUser() {
+        DatabaseReference mPlayers = mRootRef.child("rooms").child(roomID).child("players");
+        mPlayers.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                for(DataSnapshot ds : dataSnapshot.getChildren()){
+                    if(!ds.getKey().equals(user.getUid())){
+                        populateOtherUser(ds.getKey());
+                    }
+                }
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+                Log.e("PLAYERS", "Couldn't load players");
+            }
+        });
+    }
+
+    private void populateOtherUser(String key) {
+        DatabaseReference mOtherUser = mRootRef.child("users").child(key);
+        mOtherUser.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                otherUser = dataSnapshot.getValue(User.class);
+                p2Name.setText(otherUser.getEmail());
+
+                if(modelUser.getPhotoUrl() != null){
+                    Picasso.with(getActivity().getApplicationContext()).load(modelUser.getPhotoUrl()).into(p2Pic);
+                }
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+                Log.e("USERS", "Couldn't find other user. Blowing up");
+            }
+        });
+
+        addColorListeners(key, "greenhits");
+        addColorListeners(key, "redhits");
+
         startGamePresenter.startGame();
+    }
+
+    private void addColorListeners(String key, final String color) {
+        DatabaseReference mOtherPlayerColor = mRootRef.child("rooms").child(roomID).child("players").child(key).child(color);
+        mOtherPlayerColor.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                if(color.equals("greenhits"))
+                {tvOppGreenHits.setText(""+(int)dataSnapshot.getValue());}
+                else if(color.equals("redhits"))
+                {tvOppRedHits.setText(""+(int)dataSnapshot.getValue());}
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+                Log.e("COLOR", "Color not found");
+            }
+        });
     }
 
     @Override
@@ -176,15 +269,17 @@ public class StartMultiplayerGameFragment extends ArduinosCommunicationFragment 
         getActivity().runOnUiThread(new Runnable() {
             @Override
             public void run() {
-             /*
+                DatabaseReference mPlayerInRoom = mRootRef.child("rooms").child(roomID).child("players").child(user.getUid());
+                             /*
                 tvHits.setText(String.valueOf(totalHits));
                 tvScore.setText(String.valueOf(score));
                 tvAccuracy.setText(String.valueOf(accuracy) + " %");
             */
 
-                //TODO: Report these values to Firebase.
                 tvRedHits.setText(String.valueOf(redHits));
+                mPlayerInRoom.child("redhits").setValue((int)redHits);
                 tvGreenHits.setText(String.valueOf(greenHits));
+                mPlayerInRoom.child("greenhits").setValue((int)greenHits);
             }
         });
     }
@@ -206,12 +301,12 @@ public class StartMultiplayerGameFragment extends ArduinosCommunicationFragment 
     @Override
     public void onClick(View view) {
         if (view.getId() == R.id.btn_new_game) {
-            Intent intent = new Intent(getActivity(), CreateGameActivity.class);
+            Intent intent = new Intent(getActivity(), CreateMultiplayerGameActivity.class);
             startActivity(intent);
             fragmentListener.closeActivity();
         } else if (view.getId() == R.id.btn_save_and_new_game) {
             startGamePresenter.saveFirebase();
-            Intent intent = new Intent(getActivity(), CreateGameActivity.class);
+            Intent intent = new Intent(getActivity(), CreateMultiplayerGameActivity.class);
             startActivity(intent);
             fragmentListener.closeActivity();
         } else if (view.getId() == R.id.btn_save_play_again) {

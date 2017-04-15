@@ -6,12 +6,15 @@ package fiu.com.skillcourt.entities;
 
 public class Player {
     private String status;
+    private int greenhits, redhits;
 
     public Player(){
     }
 
-    public Player(String status){
+    public Player(String status, int greenhits, int redhits){
         this.status = status;
+        this.greenhits = greenhits;
+        this.redhits = redhits;
     }
 /*
     public String getUserID(){
@@ -21,7 +24,7 @@ public class Player {
     public String getPlayerStatus(){
         return status;
     }
-/*
+
     public int getGreenhits(){
         return greenhits;
     }
@@ -33,5 +36,8 @@ public class Player {
     public int getRedhits(){
         return redhits;
     }
-*/
+
+    public void addRedHits(int val){
+        redhits++;
+    }
 }
