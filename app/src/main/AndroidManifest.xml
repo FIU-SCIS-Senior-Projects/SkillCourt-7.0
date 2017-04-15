@@ -64,6 +64,7 @@
         <activity android:name=".ui.search_user.SearchUserActivity" />
         <activity android:name=".ui.team_details.TeamDetailsActivity" />
         <activity android:name=".ActivityFromMultiplayerNotif"/>
+        <activity android:name=".fcm.SearchUserNotifActivity"/>
         <!--
  ATTENTION: This was auto-generated to add Google Play services to your project for
     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
