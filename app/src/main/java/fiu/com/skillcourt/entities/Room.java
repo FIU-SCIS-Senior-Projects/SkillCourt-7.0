@@ -1,5 +1,6 @@
 package fiu.com.skillcourt.entities;
 
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -11,14 +12,14 @@ public class Room {
     private String name;
     private String status;
     private String subtext;
-    private List<Player> players;
+    private HashMap players;
 
     //THIS CONSTRUCTOR IS MANDATORY
     private Room() {
     }
 
     //THIS CONSTRUCTOR IS USED TO POPULATE THE LOBBY LIST!
-    public Room(String host, String name, List<Player> players, String status, String subtext){
+    public Room(String host, String name, HashMap players, String status, String subtext){
         this.host = host;
         this.name = name;
         this.status = status;
@@ -49,13 +50,12 @@ public class Room {
     public String getSubtext() { return subtext; }
 
     public void setSubtext(String s) { subtext = s; }
-/*
-    public List<Player> getPlayers(){
+
+    public HashMap getPlayers(){
         return players;
     }
 
-    public void setPlayers(List<Player> p){
+    public void setPlayers(HashMap<String, Player> p){
         players = p;
     }
-*/
 }

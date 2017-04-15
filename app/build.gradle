@@ -28,7 +28,6 @@ android {
         exclude 'META-INF/license'
         exclude 'META-INF/license.txt'
     }
-    useLibrary  'org.apache.http.legacy'
 }
 
 def firebaseVersion = "9.4.0"
@@ -54,14 +53,10 @@ dependencies {
     compile project(':materialstepperlibrary-release')
     compile 'com.firebaseui:firebase-ui:0.4.3'
     compile 'com.google.firebase:firebase-core:9.4.0'
-    compile 'org.apache.httpcomponents:httpcore:4.4.1'
-    compile 'org.apache.httpcomponents:httpclient:4.5'
+
 
     compile 'com.github.PhilJay:MPAndroidChart:v3.0.0'
     compile 'com.squareup.picasso:picasso:2.5.2'
-
-    compile 'com.squareup.retrofit2:retrofit:2.0.2'
-    compile 'com.squareup.retrofit2:converter-gson:2.0.2'
 }
 
 

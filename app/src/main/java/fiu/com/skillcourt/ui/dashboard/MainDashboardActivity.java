@@ -64,7 +64,7 @@ public class MainDashboardActivity extends BaseActivity {
         }
 
         showCoachOptions();
-//        showEventOptions();
+        showEventOptions();
 
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -179,27 +179,27 @@ public class MainDashboardActivity extends BaseActivity {
         });
     }
 
-//    public void showEventOptions() {
-//
-//        mRoleRef.addValueEventListener(new ValueEventListener() {
-//            @Override
-//            public void onDataChange(DataSnapshot dataSnapshot) {
-//                String userRole = dataSnapshot.getValue(String.class);
-//
-//
+    public void showEventOptions() {
+
+        mRoleRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                String userRole = dataSnapshot.getValue(String.class);
+
+
 //                if (userRole.equals("organizer")) {
 //                    navigationView.getMenu().findItem(R.id.organizer_features).setVisible(true);
 //                } else {
 //                    navigationView.getMenu().findItem(R.id.organizer_features).setVisible(false);
 //                }
-//            }
-//
-//            @Override
-//            public void onCancelled(DatabaseError databaseError) {
-//
-//            }
-//        });
-//    }
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+    }
 
     public void checkChild() {
         mUsersRef.addListenerForSingleValueEvent(new ValueEventListener() {

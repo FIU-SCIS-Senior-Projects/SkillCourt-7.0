@@ -1,89 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="1">
+    android:fillViewport="true">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="56dp"
-        app:srcCompat="@drawable/skill_court_header_logo"
-        android:id="@+id/imageView6" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="146dp"
-        android:orientation="horizontal">
         <ImageView
-            android:layout_width="114dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginLeft="15dp"
-            android:layout_height="126dp"
-            android:layout_weight="0.3"
-            app:srcCompat="@drawable/com_facebook_profile_picture_blank_square"
-            android:id="@+id/player1LobbyPic" />
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            app:srcCompat="@drawable/skill_court_header_logo"
+            android:id="@+id/imageView6" />
 
-        <Button
-            android:text="Not Ready"
-            android:layout_marginTop="50dp"
-            android:layout_marginRight="10dp"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="146dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="114dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="126dp"
+                android:layout_weight="0.3"
+                app:srcCompat="@drawable/com_facebook_profile_picture_blank_square"
+                android:id="@+id/player1LobbyPic" />
+
+            <Button
+                android:text="Not Ready"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/player1LobbyReadyButton"
+                android:background="#c1c1d7"
+                android:layout_weight="0.7" />
+        </LinearLayout>
+        <TextView
+            android:text="Player 1"
+            android:layout_marginLeft="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/player1LobbyReadyButton"
-            android:layout_weight="0.7" />
-    </LinearLayout>
-    <TextView
-        android:text="Player 1"
-        android:layout_marginLeft="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/player1LobbyName"/>
+            android:id="@+id/player1LobbyName"/>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="146dp"
-        android:orientation="horizontal">
-        <ImageView
-            android:layout_width="114dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginLeft="15dp"
-            android:layout_height="126dp"
-            android:layout_weight="0.3"
-            app:srcCompat="@drawable/com_facebook_profile_picture_blank_square"
-            android:id="@+id/player2LobbyPic" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="146dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="114dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="126dp"
+                android:layout_weight="0.3"
+                app:srcCompat="@drawable/com_facebook_profile_picture_blank_square"
+                android:id="@+id/player2LobbyPic" />
 
-        <Button
-            android:text="Not Ready"
-            android:layout_marginTop="50dp"
-            android:layout_marginRight="10dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/player2LobbyReadyButton"
-            android:layout_weight="0.7" />
-    </LinearLayout>
+            <Button
+                android:text="Not Ready"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/player2LobbyReadyButton"
+                android:background="#c1c1d7"
+                android:layout_weight="0.7" />
+        </LinearLayout>
         <TextView
             android:text="Player 2"
             android:layout_marginLeft="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/player2LobbyName"/>
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <Button
-            android:text="I'm Ready!"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:textSize="20dp"
-            android:id="@+id/lobbyReadyUpButton"
-            android:background="#88b732"
-            android:textColor="@color/background"
-            android:elevation="0dp" />
-    </RelativeLayout>
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:id="@+id/lobby_timer_container"
+                tools:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-</LinearLayout>
+                <TextView
+                    android:id="@+id/lobby_tvTimer"
+                    android:visibility="invisible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10"
+                    android:textSize="30sp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_centerInParent="true" />
+
+                <ProgressBar
+                    android:id="@+id/lobby_progressBar"
+                    android:visibility="invisible"
+                    android:layout_width="180dp"
+                    android:indeterminate="false"
+                    android:progressDrawable="@drawable/circular_progress_bar"
+                    android:background="@drawable/circle_shape"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:max="100"
+                    android:progress="0"
+                    android:layout_centerHorizontal="true"
+                    android:layout_height="180dp" />
+
+            </RelativeLayout>
+            <Button
+                android:text="I'm Ready!"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="20dp"
+                android:id="@+id/lobbyReadyUpButton"
+                android:background="#88b732"
+                android:textColor="@color/background"
+                android:elevation="0dp" />
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
