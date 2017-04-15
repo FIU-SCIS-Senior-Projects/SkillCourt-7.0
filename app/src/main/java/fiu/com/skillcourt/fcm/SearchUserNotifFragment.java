@@ -159,8 +159,10 @@ public class SearchUserNotifFragment extends Fragment {
                         new SendNotifByHTTP().sending(selectedPlayerFcmID);
                         dialog.dismiss();
 
-                        createRoom();
+                        String roomID = createRoom();
 
+                        DatabaseReference mUserROom = FirebaseDatabase.getInstance().getReference().child("users").child(selectedPlayerID).child("room");
+                        mUserROom.setValue(roomID);
                         Intent intent = new Intent(getActivity(), CreateMultiplayerLobbyWaitingActivity.class);
                         startActivity(intent);
 
@@ -216,10 +218,11 @@ public class SearchUserNotifFragment extends Fragment {
         }
     }
 
-    private void createRoom() {
+    private String createRoom() {
         DatabaseReference mRooms = mRootRef.child("rooms");
         DatabaseReference mRoom = mRooms.push();
         buildJSONTree(mRoom);
+        return mRoom.getKey();
     }
 
     private void buildJSONTree(DatabaseReference location) {
