@@ -38,6 +38,7 @@ public class ActivityFromMultiplayerNotif extends AppCompatActivity {
 
                 Log.d("working?", "working!");
                 DatabaseReference mUserRoom = mRootRef.child("users").child(user.getUid()).child("room");
+
                 mUserRoom.addValueEventListener(new ValueEventListener() {
                     int i = 0;
                     @Override
@@ -60,6 +61,7 @@ public class ActivityFromMultiplayerNotif extends AppCompatActivity {
                         //TODO:Take the user to the room and wait.
                         Intent intent = new Intent(ActivityFromMultiplayerNotif.this, CreateMultiplayerLobbyWaitingActivity.class);
                         startActivity(intent);
+
                     }}
 
                     @Override
@@ -71,3 +73,4 @@ public class ActivityFromMultiplayerNotif extends AppCompatActivity {
         });
     }
 }
+

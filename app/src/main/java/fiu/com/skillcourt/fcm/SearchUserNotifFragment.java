@@ -240,10 +240,12 @@ public class SearchUserNotifFragment extends Fragment {
         DatabaseReference mPlayer = mPlayers.child(user.getUid());
         DatabaseReference mPlayerStatus = mPlayer.child("status");
         mPlayerStatus.setValue("joined");
+
         DatabaseReference mPlayerGreenHits = mPlayer.child("greenhits");
         mPlayerGreenHits.setValue(0);
         DatabaseReference mPlayerRedHits = mPlayer.child("redhits");
         mPlayerRedHits.setValue(0);
+
 
         //Room created, add it to the user's room state
         DatabaseReference mRoomState = mRootRef.child("users").child(user.getUid()).child("room");
