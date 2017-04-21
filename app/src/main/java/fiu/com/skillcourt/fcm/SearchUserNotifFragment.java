@@ -52,6 +52,7 @@ public class SearchUserNotifFragment extends Fragment {
     private Menu menu;
     private List<Player> playersResultList = new ArrayList<>();
     ListView listViewPlayersResult;
+    String roomID;
 
     public SearchUserNotifFragment() {
         // Required empty public constructor
@@ -159,9 +160,9 @@ public class SearchUserNotifFragment extends Fragment {
                         new SendNotifByHTTP().sending(selectedPlayerFcmID);
                         dialog.dismiss();
 
-                        String roomID = createRoom();
+                        createRoom();
 
-                        DatabaseReference mUserROom = FirebaseDatabase.getInstance().getReference().child("users").child(selectedPlayerID).child("room");
+                        DatabaseReference mUserROom = mRootRef.child("users").child(selectedPlayerID).child("room");
                         mUserROom.setValue(roomID);
                         Intent intent = new Intent(getActivity(), CreateMultiplayerLobbyWaitingActivity.class);
                         startActivity(intent);
@@ -218,11 +219,11 @@ public class SearchUserNotifFragment extends Fragment {
         }
     }
 
-    private String createRoom() {
+    private void createRoom() {
         DatabaseReference mRooms = mRootRef.child("rooms");
         DatabaseReference mRoom = mRooms.push();
+        roomID = mRoom.getKey();
         buildJSONTree(mRoom);
-        return mRoom.getKey();
     }
 
     private void buildJSONTree(DatabaseReference location) {
@@ -240,9 +241,13 @@ public class SearchUserNotifFragment extends Fragment {
         DatabaseReference mPlayer = mPlayers.child(user.getUid());
         DatabaseReference mPlayerStatus = mPlayer.child("status");
         mPlayerStatus.setValue("joined");
+        DatabaseReference mPlayergreenhits = mPlayer.child("greenhits");
+        mPlayergreenhits.setValue(0);
+        DatabaseReference mPlayerredhits = mPlayer.child("redhits");
+        mPlayerredhits.setValue(0);
 
         //Room created, add it to the user's room state
         DatabaseReference mRoomState = mRootRef.child("users").child(user.getUid()).child("room");
-        mRoomState.setValue(location.getKey());
+        mRoomState.setValue(roomID);
     }
 }
