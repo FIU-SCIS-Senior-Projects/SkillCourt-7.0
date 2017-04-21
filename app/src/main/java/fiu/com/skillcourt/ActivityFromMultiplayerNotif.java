@@ -38,9 +38,13 @@ public class ActivityFromMultiplayerNotif extends AppCompatActivity {
 
                 Log.d("working?", "working!");
                 DatabaseReference mUserRoom = mRootRef.child("users").child(user.getUid()).child("room");
-                mUserRoom.addListenerForSingleValueEvent(new ValueEventListener() {
+                mUserRoom.addValueEventListener(new ValueEventListener() {
+                    int i = 0;
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
+                        if(i == 0){i++;}
+                        else{
+
                         String roomID = dataSnapshot.getValue(String.class);
 
                         //Add user to room's player list
@@ -56,7 +60,7 @@ public class ActivityFromMultiplayerNotif extends AppCompatActivity {
                         //TODO:Take the user to the room and wait.
                         Intent intent = new Intent(ActivityFromMultiplayerNotif.this, CreateMultiplayerLobbyWaitingActivity.class);
                         startActivity(intent);
-                    }
+                    }}
 
                     @Override
                     public void onCancelled(DatabaseError databaseError) {

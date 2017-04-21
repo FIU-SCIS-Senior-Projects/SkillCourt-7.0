@@ -3,6 +3,7 @@ package fiu.com.skillcourt.ui.creategame;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -21,6 +22,8 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.squareup.picasso.Picasso;
 
+import java.util.HashMap;
+
 import fiu.com.skillcourt.R;
 import fiu.com.skillcourt.entities.Room;
 import fiu.com.skillcourt.entities.User;
@@ -30,6 +33,7 @@ import fiu.com.skillcourt.game.SkillCourtManager;
 import fiu.com.skillcourt.interfaces.Constants;
 import fiu.com.skillcourt.ui.base.BaseActivity;
 import fiu.com.skillcourt.ui.startgame.StartMultiplayerGameActivity;
+import fiu.com.skillcourt.interfaces.Constants;
 
 /**
  * Created by Chandan on 3/22/2017.
@@ -298,7 +302,7 @@ public class CreateMultiplayerLobbyWaitingActivity extends BaseActivity {
         if(user.getPhotoUrl() != null){
             Picasso.with(CreateMultiplayerLobbyWaitingActivity.this.getApplicationContext()).load(user.getPhotoUrl()).into(playerPic);
         }
-        playerName.setText(p!=null? p.getName():user.getEmail());
+        playerName.setText(/*p!=null? p.getName():*/user.getEmail());
     }
 
     public void toggleTimerAndReadyStatus(){
@@ -324,6 +328,7 @@ public class CreateMultiplayerLobbyWaitingActivity extends BaseActivity {
 
                         @Override
                         public void onFinish() {
+                            progressBar.setProgress(100);
                             if (player1ReadyButton.getText().toString().equalsIgnoreCase("Ready") &&
                                     player2ReadyButton.getText().toString().equalsIgnoreCase("Ready")) {
                                 userReadyButton.setOnClickListener(null);
@@ -332,12 +337,12 @@ public class CreateMultiplayerLobbyWaitingActivity extends BaseActivity {
                                 startActivity(intent);
                                 finish();
 
-//                                SkillCourtManager.getInstance().getGame().setGameTimeTotal(60);
-//                                SkillCourtManager.getInstance().getGame().setGameMode(SkillCourtGame.GameMode.HIT_MODE);
-//                                Intent intent = new Intent(CreateMultiplayerLobbyWaitingActivity.this, StartMultiplayerGameActivity.class);
-//                                //intent.putExtra(Constants.TAG_SEQUENCE, null);
-//                                startActivity(intent);
-                            }
+                                /*SkillCourtManager.getInstance().getGame().setGameTimeTotal(60);
+                                SkillCourtManager.getInstance().getGame().setGameMode(SkillCourtGame.GameMode.HIT_MODE);
+                                Intent intent = new Intent(CreateMultiplayerLobbyWaitingActivity.this, StartMultiplayerGameActivity.class);
+                                intent.putExtra(Constants.TAG_SEQUENCE, (HashMap<String,String>)null);
+                                startActivity(intent);
+                            */}
                         }
                     }.start();
                 } else {
