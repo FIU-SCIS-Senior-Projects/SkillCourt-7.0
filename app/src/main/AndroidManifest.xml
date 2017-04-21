@@ -43,6 +43,10 @@
             android:name=".ui.startgame.StartGameActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.startgame.StartMultiplayerGameActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
         <activity android:name=".ui.creategame.CreateGameActivity" />
         <activity android:name=".ui.creategame.CreateMultiplayerGameActivity" />
         <activity android:name=".ui.creategame.CreateMultiplayerEntrance" />

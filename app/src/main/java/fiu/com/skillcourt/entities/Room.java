@@ -10,9 +10,9 @@ import java.util.List;
 public class Room {
     private String host;
     private String name;
+    private HashMap players;
     private String status;
     private String subtext;
-    private HashMap players;
 
     //THIS CONSTRUCTOR IS MANDATORY
     private Room() {
@@ -22,6 +22,7 @@ public class Room {
     public Room(String host, String name, HashMap players, String status, String subtext){
         this.host = host;
         this.name = name;
+        this.players = players;
         this.status = status;
         this.subtext = subtext;
     }

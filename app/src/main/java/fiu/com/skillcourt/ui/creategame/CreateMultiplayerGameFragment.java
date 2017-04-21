@@ -1,11 +1,15 @@
 package fiu.com.skillcourt.ui.creategame;
 
 import android.app.TimePickerDialog;
+import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.Snackbar;
+import android.support.v4.content.LocalBroadcastManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -46,7 +50,7 @@ import fiu.com.skillcourt.ui.custom.TimePickerFragment;
 import fiu.com.skillcourt.ui.startgame.StartMultiplayerGameActivity;
 
 
-public class CreateMultiplayerGameFragment extends ArduinosStartCommunicationFragment implements TimePickerDialog.OnTimeSetListener, DialogInterface.OnClickListener, NumberPickerFragment.NumericDialogListener,AdapterView.OnItemSelectedListener {
+public class CreateMultiplayerGameFragment extends ArduinosStartCommunicationFragment/* implements TimePickerDialog.OnTimeSetListener, DialogInterface.OnClickListener, NumberPickerFragment.NumericDialogListener,AdapterView.OnItemSelectedListener */{
 
 
     Button btnTime, btnGameMode, btnStartGame, btnTimeObjective;
@@ -88,21 +92,51 @@ public class CreateMultiplayerGameFragment extends ArduinosStartCommunicationFra
         //return view;
         return inflater.inflate(R.layout.fragment_create_game, container, false);
     }
-
-    @Override
-    public void onTimeSet(TimePicker timePicker, int i, int i1) {
-        time = i*60+i1;
-        numberPickerFragment.setupNumberPicker(time);
-        btnTime.setText(String.format("%02d:%02d",i,+i1));
+    @Override public void onResume(){
+        super.onResume();
+        LocalBroadcastManager.getInstance(getActivity())
+                .registerReceiver(startArduinoBroadcastReceiver, new IntentFilter(Constants.ARDUINOS_CONNECTED));
     }
 
     @Override
+    public void onPause() {
+        super.onPause();
+        LocalBroadcastManager.getInstance(getActivity()).unregisterReceiver(startArduinoBroadcastReceiver);
+    }
+
+    public class StartArduinoBroadcastReceiver extends BroadcastReceiver{
+        @Override public void onReceive(final Context context, final Intent intent){
+            llGameLayout.setVisibility(View.VISIBLE);
+            llArduinoConnection.setVisibility(View.GONE);
+
+            btnStartGame.callOnClick();
+        }
+    }
+
+    /*
+        @Override
+        public void onTimeSet(TimePicker timePicker, int i, int i1) {
+            time = i*60+i1;
+            numberPickerFragment.setupNumberPicker(time);
+            btnTime.setText(String.format("%02d:%02d",i,+i1));
+        }
+    */
+    @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
+       /* SkillCourtManager.getInstance().getGame().setGameTimeTotal(60);
+        SkillCourtManager.getInstance().getGame().setGameMode(SkillCourtGame.GameMode.HIT_MODE);
+        if (selectedGameMode == SkillCourtGame.GameMode.BEAT_TIMER) {
+            SkillCourtManager.getInstance().getGame().setTimeObjective(frequencyTime);
+        }
+        Intent intent = new Intent(getActivity(), StartMultiplayerGameActivity.class);
+        intent.putExtra(Constants.TAG_SEQUENCE, (HashMap<String, String>) null);
+        startActivity(intent);
+        fragmentListener.closeActivity(); */
+/*
         btnTime = (Button) view.findViewById(R.id.btn_time);
-        btnGameMode = (Button) view.findViewById(R.id.btn_gameMode);
-        btnStartGame = (Button) view.findViewById(R.id.start_game);
+        btnGameMode = (Button) view.findViewById(R.id.btn_gameMode);*/
+        btnStartGame = (Button) view.findViewById(R.id.start_game);/*
         btnTimeObjective = (Button)view.findViewById(R.id.time_objective_button);
         modeTimerContainer = (LinearLayout)view.findViewById(R.id.mode_timer_container);
         timePickerFragment.setOnTimerPickerDialog(CreateMultiplayerGameFragment.this);
@@ -135,17 +169,18 @@ public class CreateMultiplayerGameFragment extends ArduinosStartCommunicationFra
             }
         });
 
+       */
         btnStartGame.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (isValid()) {
-                    SkillCourtManager.getInstance().getGame().setGameTimeTotal(time);
-                    SkillCourtManager.getInstance().getGame().setGameMode(selectedGameMode);
+                if (true) {
+                    SkillCourtManager.getInstance().getGame().setGameTimeTotal(60);
+                    SkillCourtManager.getInstance().getGame().setGameMode(SkillCourtGame.GameMode.HIT_MODE);
                     if (selectedGameMode == SkillCourtGame.GameMode.BEAT_TIMER) {
                         SkillCourtManager.getInstance().getGame().setTimeObjective(frequencyTime);
                     }
                     Intent intent = new Intent(getActivity(), StartMultiplayerGameActivity.class);
-                    intent.putExtra(Constants.TAG_SEQUENCE, defaultSequence);
+                    intent.putExtra(Constants.TAG_SEQUENCE, (HashMap<String,String>)null);
                     startActivity(intent);
                     fragmentListener.closeActivity();
                 } else {
@@ -154,6 +189,8 @@ public class CreateMultiplayerGameFragment extends ArduinosStartCommunicationFra
             }
         });
 
+        //btnStartGame.callOnClick();
+/*
         FirebaseAuth mAuth = FirebaseAuth.getInstance();
 
         FirebaseUser user = mAuth.getCurrentUser();
@@ -223,7 +260,7 @@ public class CreateMultiplayerGameFragment extends ArduinosStartCommunicationFra
             }
         });
 
-
+*/
     }
 
 
@@ -242,100 +279,100 @@ public class CreateMultiplayerGameFragment extends ArduinosStartCommunicationFra
         }
     }
 
-    @Override
-    public void onClick(DialogInterface dialogInterface, int which) {
-        SkillCourtGame.GameMode gameMode;
-        if (which == 0) {
-            gameMode = SkillCourtGame.GameMode.BEAT_TIMER;
-            btnGameMode.setText("Beat timer");
-            modeTimerContainer.setVisibility(View.VISIBLE);
-
-        } else {
-            gameMode = SkillCourtGame.GameMode.HIT_MODE;
-            btnGameMode.setText("Hit mode");
-            modeTimerContainer.setVisibility(View.GONE);
-        }
-        selectedGameMode = gameMode;
-    }
-    @Override
-    public void onNothingSelected(AdapterView<?> adapterView) {
-
-    }
-    @Override
-    public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-        Object sequence = spinner.getSelectedItem();
-        FirebaseUser user ;
-        DatabaseReference myRef;
-        DatabaseReference mySeq;
-        if(sequence.toString()=="" && mAuth!=null){
-            defaultKey="";
-            defaultSequence=null;
-            mAuth = FirebaseAuth.getInstance();
-            user= mAuth.getCurrentUser();
-            DatabaseReference users =database.getReference("users");
-            myRef = users.child(user.getUid());
-            mySeq=myRef.child("sequences");
-            for(String seq:mySequences)
-            {
-                if(seq=="") continue;
-                String otherid = spinnerMap.get(seq);
-                DatabaseReference otherRef=mySeq.child(otherid);
-                otherRef.setValue("");
-            }
-            return;
-        }
-        else{
-            mAuth = FirebaseAuth.getInstance();
-            user= mAuth.getCurrentUser();
-            DatabaseReference users =database.getReference("users");
-            myRef = users.child(user.getUid());
-            mySeq=myRef.child("sequences");
-        }
-        String id = spinnerMap.get(sequence.toString());
-        if(id!=null) {
-            DatabaseReference saveID = mySeq.child(id);
-            saveID.setValue("default");
-        }
-        for(String seq:mySequences)
-        {
-            if(seq=="") continue;
-            String otherid = spinnerMap.get(seq);
-            if(otherid==id || id==null)continue;
-            DatabaseReference otherRef=mySeq.child(otherid);
-            otherRef.setValue("");
-        }
-    }
-
-    public void getGlobalSequences(){
-        sequences.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                globalSequences=(HashMap)dataSnapshot.getValue();
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        });
-    }
-    public void getMySequences(){
-        sequences.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                myData=(HashMap)dataSnapshot.getValue();
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        });
-    }
-
-    @Override
-    public void onNumberSelected(int number) {
-        btnTimeObjective.setText(String.valueOf(number));
-        frequencyTime = number;
-    }
+//    @Override
+//    public void onClick(DialogInterface dialogInterface, int which) {
+//        SkillCourtGame.GameMode gameMode;
+//        if (which == 0) {
+//            gameMode = SkillCourtGame.GameMode.BEAT_TIMER;
+//            btnGameMode.setText("Beat timer");
+//            modeTimerContainer.setVisibility(View.VISIBLE);
+//
+//        } else {
+//            gameMode = SkillCourtGame.GameMode.HIT_MODE;
+//            btnGameMode.setText("Hit mode");
+//            modeTimerContainer.setVisibility(View.GONE);
+//        }
+//        selectedGameMode = gameMode;
+//    }
+//    @Override
+//    public void onNothingSelected(AdapterView<?> adapterView) {
+//
+//    }
+//    @Override
+//    public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+//        Object sequence = spinner.getSelectedItem();
+//        FirebaseUser user ;
+//        DatabaseReference myRef;
+//        DatabaseReference mySeq;
+//        if(sequence.toString()=="" && mAuth!=null){
+//            defaultKey="";
+//            defaultSequence=null;
+//            mAuth = FirebaseAuth.getInstance();
+//            user= mAuth.getCurrentUser();
+//            DatabaseReference users =database.getReference("users");
+//            myRef = users.child(user.getUid());
+//            mySeq=myRef.child("sequences");
+//            for(String seq:mySequences)
+//            {
+//                if(seq=="") continue;
+//                String otherid = spinnerMap.get(seq);
+//                DatabaseReference otherRef=mySeq.child(otherid);
+//                otherRef.setValue("");
+//            }
+//            return;
+//        }
+//        else{
+//            mAuth = FirebaseAuth.getInstance();
+//            user= mAuth.getCurrentUser();
+//            DatabaseReference users =database.getReference("users");
+//            myRef = users.child(user.getUid());
+//            mySeq=myRef.child("sequences");
+//        }
+//        String id = spinnerMap.get(sequence.toString());
+//        if(id!=null) {
+//            DatabaseReference saveID = mySeq.child(id);
+//            saveID.setValue("default");
+//        }
+//        for(String seq:mySequences)
+//        {
+//            if(seq=="") continue;
+//            String otherid = spinnerMap.get(seq);
+//            if(otherid==id || id==null)continue;
+//            DatabaseReference otherRef=mySeq.child(otherid);
+//            otherRef.setValue("");
+//        }
+//    }
+//
+//    public void getGlobalSequences(){
+//        sequences.addValueEventListener(new ValueEventListener() {
+//            @Override
+//            public void onDataChange(DataSnapshot dataSnapshot) {
+//                globalSequences=(HashMap)dataSnapshot.getValue();
+//            }
+//
+//            @Override
+//            public void onCancelled(DatabaseError databaseError) {
+//
+//            }
+//        });
+//    }
+//    public void getMySequences(){
+//        sequences.addValueEventListener(new ValueEventListener() {
+//            @Override
+//            public void onDataChange(DataSnapshot dataSnapshot) {
+//                myData=(HashMap)dataSnapshot.getValue();
+//            }
+//
+//            @Override
+//            public void onCancelled(DatabaseError databaseError) {
+//
+//            }
+//        });
+//    }
+//
+//    @Override
+//    public void onNumberSelected(int number) {
+//        btnTimeObjective.setText(String.valueOf(number));
+//        frequencyTime = number;
+//    }
 }
