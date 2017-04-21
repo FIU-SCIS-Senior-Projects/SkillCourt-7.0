@@ -161,9 +161,8 @@ public class SearchUserNotifFragment extends Fragment {
                         dialog.dismiss();
 
                         createRoom();
-
-                        DatabaseReference mUserROom = mRootRef.child("users").child(selectedPlayerID).child("room");
-                        mUserROom.setValue(roomID);
+                        DatabaseReference mOpponentRoom = mRootRef.child("users").child(selectedPlayerID).child("room");
+                        mOpponentRoom.setValue(roomID);
                         Intent intent = new Intent(getActivity(), CreateMultiplayerLobbyWaitingActivity.class);
                         startActivity(intent);
 
@@ -241,10 +240,12 @@ public class SearchUserNotifFragment extends Fragment {
         DatabaseReference mPlayer = mPlayers.child(user.getUid());
         DatabaseReference mPlayerStatus = mPlayer.child("status");
         mPlayerStatus.setValue("joined");
-        DatabaseReference mPlayergreenhits = mPlayer.child("greenhits");
-        mPlayergreenhits.setValue(0);
-        DatabaseReference mPlayerredhits = mPlayer.child("redhits");
-        mPlayerredhits.setValue(0);
+
+        DatabaseReference mPlayerGreenHits = mPlayer.child("greenhits");
+        mPlayerGreenHits.setValue(0);
+        DatabaseReference mPlayerRedHits = mPlayer.child("redhits");
+        mPlayerRedHits.setValue(0);
+
 
         //Room created, add it to the user's room state
         DatabaseReference mRoomState = mRootRef.child("users").child(user.getUid()).child("room");

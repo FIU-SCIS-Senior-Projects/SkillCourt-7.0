@@ -46,7 +46,6 @@ import fiu.com.skillcourt.ui.login.LoginFacebook;
 
 public class StartMultiplayerGameFragment extends ArduinosCommunicationFragment implements StartGameView, View.OnClickListener{
 
-    private DatabaseReference mRootRef = FirebaseDatabase.getInstance().getReference();
     private User modelUser;
     private User otherUser;
     private String roomID;
@@ -66,11 +65,14 @@ public class StartMultiplayerGameFragment extends ArduinosCommunicationFragment 
     private LinearLayout btnContainer, tvContainer;
     private RelativeLayout timerContainer;
     private FirebaseUser user;
+    private String roomState;
+    private DatabaseReference mRootRef = FirebaseDatabase.getInstance().getReference();
+    DatabaseReference mRoomState = mRootRef.child("rooms").child(roomID).child("status");
+    boolean isHost, hostPaused, hostResumed;
 
     StartGamePresenter startGamePresenter;
 
     //Firebase instances
-    FirebaseDatabase firebaseDatabase;
     DatabaseReference userDatabaseReference;
 
     public static StartGameFragment newInstance(ArrayList<String> sequences) {
@@ -103,14 +105,31 @@ public class StartMultiplayerGameFragment extends ArduinosCommunicationFragment 
         }
 
     public void helperOnCreate(){
+        setupRoomStateListener();
+        setIsHost();
         List<String> sequences = new ArrayList<>();
         if (getArguments() != null) {
             if (getArguments().containsKey(Constants.TAG_SEQUENCE))
                 sequences = (ArrayList) getArguments().getSerializable(Constants.TAG_SEQUENCE);
         }
         startGamePresenter = new StartGamePresenter(this, sequences);
-        firebaseDatabase = FirebaseDatabase.getInstance();
-        userDatabaseReference = firebaseDatabase.getReference().child("users").child(FirebaseAuth.getInstance().getCurrentUser().getUid());
+        userDatabaseReference = mRootRef.child("users").child(FirebaseAuth.getInstance().getCurrentUser().getUid());
+    }
+
+    private void setIsHost() {
+        DatabaseReference mRoomHost = mRootRef.child("rooms").child(roomID).child("status");
+        mRoomHost.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                String host = dataSnapshot.getValue(String.class);
+                isHost = host.equals(user.getUid());
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
     }
 
     @Override
@@ -119,6 +138,65 @@ public class StartMultiplayerGameFragment extends ArduinosCommunicationFragment 
         //TODO: Add extra when referring to this fragment
         //TODO: Switch true and false post-testing
         return inflater.inflate(R.layout.fragment_multiplayer_game, container, false);
+    }
+
+    private void setupRoomStateListener() {
+        mRoomState.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                roomState = dataSnapshot.getValue(String.class);
+
+                switch (roomState)
+                {
+                    case "play_again":
+                        startGamePresenter.playAgain();
+                        break;
+                    case "new_game":
+                        Intent intent = new Intent(getActivity(), CreateMultiplayerGameActivity.class);
+                        startActivity(intent);
+                        fragmentListener.closeActivity();
+                        break;
+                    case "save_new_game":
+                        startGamePresenter.saveFirebase();
+                        Intent intent2 = new Intent(getActivity(), CreateMultiplayerGameActivity.class);
+                        startActivity(intent2);
+                        fragmentListener.closeActivity();
+                        break;
+                    case "save_play_again":
+                        startGamePresenter.saveFirebase();
+                        startGamePresenter.playAgain();
+                        break;
+                    case "pausing":
+                        if(hostPaused)
+                        {
+                            if(!isHost)
+                                onPause();
+                        }
+                        else{
+                            if(isHost)
+                                onPause();
+                        }
+                        break;
+                    case "resuming":
+                        if(hostResumed){
+                            if(!isHost)
+                                onResume();
+                        }
+                        else{
+                            if(isHost)
+                                onResume();
+                        }
+                        break;
+                    default:
+                        break;
+                }
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
     }
 
     @Override
@@ -196,8 +274,8 @@ public class StartMultiplayerGameFragment extends ArduinosCommunicationFragment 
                 otherUser = dataSnapshot.getValue(User.class);
                 p2Name.setText(otherUser.getEmail());
 
-                if(modelUser.getPhotoUrl() != null){
-                    Picasso.with(getActivity().getApplicationContext()).load(modelUser.getPhotoUrl()).into(p2Pic);
+                if(otherUser.getPhotoUrl() != null){
+                    Picasso.with(getActivity().getApplicationContext()).load(otherUser.getPhotoUrl()).into(p2Pic);
                 }
             }
 
@@ -234,12 +312,16 @@ public class StartMultiplayerGameFragment extends ArduinosCommunicationFragment 
     @Override
     public void onPause() {
         super.onPause();
+        hostPaused = isHost ? true : false;
+        mRoomState.setValue("pausing");
         startGamePresenter.cancelGame();
     }
 
     @Override
     public void onResume() {
         super.onResume();
+        hostResumed = isHost ? true : false;
+        mRoomState.setValue("resuming");
         startGamePresenter.onResume(this);
     }
 
@@ -287,33 +369,33 @@ public class StartMultiplayerGameFragment extends ArduinosCommunicationFragment 
     @Override
     public void setupInitGame() {
         timerContainer.setVisibility(View.VISIBLE);
-        btnContainer.setVisibility(View.GONE);
-        tvContainer.setVisibility(View.GONE);
+
+        if(isHost){
+            btnContainer.setVisibility(View.GONE);
+            tvContainer.setVisibility(View.GONE);
+        }
     }
 
     @Override
     public void setupFinishGame() {
         timerContainer.setVisibility(View.GONE);
-        btnContainer.setVisibility(View.VISIBLE);
-        tvContainer.setVisibility(View.VISIBLE);
+
+        if(isHost){
+            btnContainer.setVisibility(View.VISIBLE);
+            tvContainer.setVisibility(View.VISIBLE);
+        }
     }
 
     @Override
     public void onClick(View view) {
         if (view.getId() == R.id.btn_new_game) {
-            Intent intent = new Intent(getActivity(), CreateMultiplayerGameActivity.class);
-            startActivity(intent);
-            fragmentListener.closeActivity();
+            mRoomState.setValue("new_game");
         } else if (view.getId() == R.id.btn_save_and_new_game) {
-            startGamePresenter.saveFirebase();
-            Intent intent = new Intent(getActivity(), CreateMultiplayerGameActivity.class);
-            startActivity(intent);
-            fragmentListener.closeActivity();
+            mRoomState.setValue("save_new_game");
         } else if (view.getId() == R.id.btn_save_play_again) {
-            startGamePresenter.saveFirebase();
-            startGamePresenter.playAgain();
+            mRoomState.setValue("save_play_again");
         } else if (view.getId() == R.id.btn_play_again) {
-            startGamePresenter.playAgain();
+            mRoomState.setValue("play_again");
         }
     }
 
