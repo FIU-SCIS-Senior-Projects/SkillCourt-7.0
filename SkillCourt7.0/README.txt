@@ -86,13 +86,11 @@ Once you replace it you can use it. If you don't want to create a new one, conta
 
 # Webpage structure
 
-.
-.
-.
-(ANTONIO PART)
-.
-.
-.
+Documented in videos
+
+# Server:
+
+For notification service, we are using a Node Js Server. For interacting with the server and make changes, you need to have "npm" installed in your computer and read documentation about Express and BodyParser.
 
 # Requirements
 
