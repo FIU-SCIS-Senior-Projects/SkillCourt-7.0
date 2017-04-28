@@ -1,0 +1,27 @@
+﻿extends layout
+
+block content
+    .bodyContent
+        h3
+            p.inline Welcome to SkillCourt 
+            p.inline#name
+            p.inline !
+        hr
+        .bodySection
+            h1 Single Player Match History
+        hr
+        .bodySection
+            h1 Multi-Player Match History
+        hr
+        .options
+            a.inline(href = "#" onclick = "logout()") Log out
+            p.inline  - 
+            a.inline(href = "#" onclick = "changePassword()") Change Password
+        .newForms#forms
+        
+
+    
+    script(src = "/javascripts/users.js")
+    script window.onload = loadDB();
+    
+

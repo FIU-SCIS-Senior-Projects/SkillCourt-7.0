@@ -1,0 +1,27 @@
+﻿doctype html
+html
+  head
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title= title 
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src = "https://www.gstatic.com/firebasejs/3.6.10/firebase.js")
+    script(src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js")
+    script(src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js")
+    
+    
+
+    script
+        |var config = {
+        |   apiKey: "AIzaSyC7iWe7sJJeHXLR-qv_bDZr8GRQhHjtztQ",
+        |   authDomain: "skillcourt-1e97e.firebaseapp.com",
+        |   databaseURL: "https://skillcourt-1e97e.firebaseio.com",
+        |   storageBucket: "skillcourt-1e97e.appspot.com",
+        |   messagingSenderId: "413613777767"
+        |};
+        |firebase.initializeApp(config);
+        |var provider = new firebase.auth.FacebookAuthProvider();
+
+
+    include header
+    block content
+    include footer

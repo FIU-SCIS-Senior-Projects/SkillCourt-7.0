@@ -1,0 +1,40 @@
+﻿extends layout
+
+block content
+    .bodyContent
+        .bodySection
+            h1 Exploring the SkillCourt Application 
+            hr(width = '60%')
+            img(src = "images/previous_button.png" onclick = "previous_App()")
+            img(src = "images/next_button.png" onclick = "next_App()")
+            hr(width = '60%')
+            .cycleInfo
+                .head
+                    h2#cycleAppHead Mobile App Information 
+                .imageContainer
+                    img#cycleAppImage(src = "#" alt = "SkillCourt screenshot")
+                .infoContainer
+                    p#cycleAppBody Application information 
+        .bodySection
+            hr(width = '100%')
+            h1 The SkillCourt Pad
+            hr(width = '40%')
+            img(src = "images/previous_button.png" onclick = "previous_Pad()")
+            img(src = "images/next_button.png" onclick = "next_Pad()")
+            hr(width = '40%')
+            .cycleInfo
+                .head
+                    h2#cyclePadHead SkillCourt Pad Explained
+                .imageContainer
+                    img#cyclePadImage(src = "#" alt = "SkillCourt Pad Image")
+                .infoContainer
+                    p#cyclePadBody SkillCourt Pad information 
+            
+
+
+
+    script(src = "/javascripts/explore.js")
+    script window.onload = displayCurrentInfo_App();
+    script window.onload = displayCurrentInfo_Pad();
+
+            

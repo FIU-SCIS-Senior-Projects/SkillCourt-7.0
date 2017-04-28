@@ -1,0 +1,17 @@
+﻿extends layout
+
+block content
+    .bodyContent
+        .loginmodal-container
+            h1 Login to Your Account
+            br
+            form
+                input#user(type='text', placeholder='Email Address')
+                input#pass(type='password', placeholder='Password')
+                button(type = 'button' onclick = 'login()') Login
+            .login-help
+                a(href='/standardCreateAccount') Register
+                |  - 
+                a(href='/signIn') Sign in Options
+
+    script(src = "/javascripts/standardLogin.js")

@@ -1,0 +1,20 @@
+﻿extends layout
+
+block content
+    .bodyContent
+        .loginmodal-container
+            h1 Create to Your Account
+            br
+            form
+                input#Fname(type = 'text', placeholder = 'First Name')
+                input#Lname(type = 'text', placeholder = 'Last Name')
+                input#email1(type = 'text', placeholder = 'E-mail Address')
+                input#email2(type = 'text', placeholder = 'Confirm E-mail')
+                input#password1(type='password', placeholder='Password')
+                input#password2(type = 'Password', placeholder = 'Confirm Password')
+                button(type = 'button' onclick = 'createAccount()') Create Account
+            .login-help
+                a(href='/standardLogin') Log In
+
+
+    script(src = "/javascripts/standardCreateAccount.js")
