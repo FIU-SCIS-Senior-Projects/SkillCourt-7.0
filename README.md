@@ -1,2 +1,0 @@
-# MVP
-MVP product
